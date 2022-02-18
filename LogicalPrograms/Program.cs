@@ -16,8 +16,10 @@ namespace LogicalPrograms
             //program.FibonacciSeries1();
             //PrimeNumber program = new PrimeNumber();
             //program.PrimeNumber1();
-            ReverseNumber program = new ReverseNumber();
-            program.ReverseNumber1();
+            // ReverseNumber program = new ReverseNumber();
+            //program.ReverseNumber1();
+            PerfectNumber program = new PerfectNumber();
+            program.PerfectNumber1();
             Console.ReadLine();
         }
     }
