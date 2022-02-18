@@ -11,9 +11,11 @@ namespace LogicalPrograms
         static void Main(string[] args)
         {
             Console.WriteLine("Logical Programs");
-            FibonacciSeries program = new FibonacciSeries();
-            
-            program.FibonacciSeries1();
+            //FibonacciSeries program = new FibonacciSeries();
+
+            //program.FibonacciSeries1();
+            PrimeNumber program = new PrimeNumber();
+            program.PrimeNumber1();
             Console.ReadLine();
         }
     }
