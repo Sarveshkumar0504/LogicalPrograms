@@ -10,6 +10,11 @@ namespace LogicalPrograms
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Logical Programs");
+            FibonacciSeries program = new FibonacciSeries();
+            
+            program.FibonacciSeries1();
+            Console.ReadLine();
         }
     }
 }
