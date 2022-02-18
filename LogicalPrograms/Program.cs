@@ -14,8 +14,10 @@ namespace LogicalPrograms
             //FibonacciSeries program = new FibonacciSeries();
 
             //program.FibonacciSeries1();
-            PrimeNumber program = new PrimeNumber();
-            program.PrimeNumber1();
+            //PrimeNumber program = new PrimeNumber();
+            //program.PrimeNumber1();
+            ReverseNumber program = new ReverseNumber();
+            program.ReverseNumber1();
             Console.ReadLine();
         }
     }
